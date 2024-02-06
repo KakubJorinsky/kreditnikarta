@@ -1,0 +1,65 @@
+body{
+    margin: 250px;
+}
+
+.ctverecek{
+    background-color: black;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    color: white;
+}
+.kartiška{
+    background-color: rgb(0, 0, 0);
+    height: 173px;
+    width: 296px;
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 20px;
+    
+}
+
+.jmeno-a-cisilko{
+    display: flex;
+
+    flex-direction: column;
+}
+
+.RABOBANK{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 36.5;
+}
+
+.objazek-na-levo img{
+    height: 43px;
+}
+
+.objazek-na-levo{
+    display: flex;
+    flex-direction: row;
+}
+
+.objazky p{
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 36.5;
+}
+
+#jmeno{
+    font-size: 9px;
+}
+
+#cislo-karty{
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 36.5;
+}
